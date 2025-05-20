@@ -18,7 +18,7 @@ public class RestartOnFall : MonoBehaviour
         if (transform.position.y < -25)
         {
             Debug.Log("Me caí");
-            SceneManager.LoadScene("fpsparkour")
+            SceneManager.LoadScene("fpsparkour");
         }
     }
 }
